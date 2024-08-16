@@ -10,9 +10,27 @@
 - Step 4:
     - Copy toàn bộ thư mục trong thư mục widgetbook/build/web
     vào nhánh ziichat_flutter_ui của repo `https://github.com/ziichatlabs/development.tools/tree/deploy-tool`
+
+    - from
+
+        ![Screenshot 2024-08-16 at 11 08 25](https://github.com/user-attachments/assets/edbf9af2-2ffd-4dea-8616-737e768e3030)
+
+    - to
+      
+      ![image](https://github.com/user-attachments/assets/cd404712-d6f5-4c26-9e17-173e1bc34830)
+
+
 - Step 5:
     - Quay lại nhánh `deploy_ziichat_flutter_ui` và copy thư mục
     assets chính của project vào trong thư mục `assets/packages/ziichat_ui` của repo `https://github.com/ziichatlabs/development.tools/tree/deploy-tool` (tại nhánh ziichat_flutter_ui), để tránh trường hợp thiếu assets khi deploy
+    - from
+      
+    ![Screenshot 2024-08-16 at 11 13 42](https://github.com/user-attachments/assets/1c1e1ff6-0eb1-4d27-af02-9815c0b4b376)
+
+    - to
+
+    ![image](https://github.com/user-attachments/assets/22d604bd-aedc-47ed-aa21-a4479c7e424c)
+
     
 - Step 6:
     - Chỉnh sửa đường dẫn trong file index.html vừa mới copy thành
@@ -20,6 +38,9 @@
     ```<base href="/">```
     to
     ```<base href="https://ziichatlabs.github.io/development.tools/">``` (Deploy domain)
+
+    ![Screenshot 2024-08-16 at 11 18 47](https://github.com/user-attachments/assets/f7670a2d-eb1c-4afa-bbb3-2484155e6df6)
+
 - Step 7:
     - Commit and push code
  
