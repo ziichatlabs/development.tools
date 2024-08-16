@@ -8,28 +8,21 @@
 - Step 3:
     - Chạy lệnh `flutter build web --web-renderer auto --release`
 - Step 4:
-    - Copy toàn bộ thư mục trong thư mục widgetbook/build/web
-    vào nhánh ziichat_flutter_ui của repo `https://github.com/ziichatlabs/development.tools/tree/deploy-tool`
-
-    - from
-
-        ![Screenshot 2024-08-16 at 11 08 25](https://github.com/user-attachments/assets/edbf9af2-2ffd-4dea-8616-737e768e3030)
-
-    - to
+    - Từ thư mục ziichat-flutter-ui 
+    - Chạy lệnh `cp -r assets widgetbook/build/web/assets/packages/ziichat_ui`
+    - Để copy thư mục assets chính của project vào trong thư mục `widgetbook/build/web/assets/packages/ziichat_ui` (Tránh việc mất assets khi deploy)
       
-      ![image](https://github.com/user-attachments/assets/cd404712-d6f5-4c26-9e17-173e1bc34830)
-
+    ![Screenshot 2024-08-16 at 13 08 36](https://github.com/user-attachments/assets/7d244201-7e81-464c-96ac-39d1f5bf4d59)
 
 - Step 5:
-    - Quay lại nhánh `deploy_ziichat_flutter_ui` và copy thư mục
-    assets chính của project vào trong thư mục `assets/packages/ziichat_ui` của repo `https://github.com/ziichatlabs/development.tools/tree/deploy-tool` (tại nhánh ziichat_flutter_ui), để tránh trường hợp thiếu assets khi deploy
-    - from
-      
-    ![Screenshot 2024-08-16 at 11 13 42](https://github.com/user-attachments/assets/1c1e1ff6-0eb1-4d27-af02-9815c0b4b376)
+   - Copy toàn bộ thư mục trong thư mục `build/web` vào trong nhánh `ziichat-flutter-ui` của repo `https://github.com/ziichatlabs/development.tools`
+    from
 
-    - to
+    ![image](https://github.com/user-attachments/assets/1076b73d-938f-4b57-b299-f5ee598d94ca)
 
-    ![image](https://github.com/user-attachments/assets/22d604bd-aedc-47ed-aa21-a4479c7e424c)
+    to
+
+    ![image](https://github.com/user-attachments/assets/5ec90464-8d25-4b2d-8dba-3d6e33fb5673)
 
     
 - Step 6:
