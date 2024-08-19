@@ -38,21 +38,7 @@
     - Commit and push code
  
 # For QC
-- Step 1:
-    - Sau khi truy cập vào deploy domain (https://ziichatlabs.github.io/development.tools/),
-      chuột phải chọn Inspect.
-      
-     ![Screenshot 2024-08-16 at 10 47 42](https://github.com/user-attachments/assets/46f554d0-081b-419c-8b0d-c5ec6e62a90d)
-- Step 2:
-    - Click vào biểu tượng reponsive ở góc trái cửa sổ inspect
-      
-     ![Screenshot 2024-08-16 at 10 49 02](https://github.com/user-attachments/assets/6487bf88-d97f-482c-a146-267faeecb959)
-    - Giao diện sẽ trông như thế này
-      
-     ![Screenshot 2024-08-16 at 10 51 19](https://github.com/user-attachments/assets/e3baa430-7f5b-45cc-90e9-fd953928b68b)
+- Truy cập vào deploy domain (https://ziichatlabs.github.io/development.tools/) bằng trình duyệt bất kỳ trên điện thoại.
 
-- Step 3:
-  - Tại đây có thể chọn các thiết bị khác nhau để test cũng như có thể chọn chế độ quay ngang hoặc quay dọc
-    
-  ![Screenshot 2024-08-16 at 10 52 28](https://github.com/user-attachments/assets/5753c3aa-39a2-4315-90a9-aa4a0a0d173e)
+
 
